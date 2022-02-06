@@ -11,7 +11,7 @@ This repository is built to compile all the weekly project in our Applications P
 #### John Carlo Cabanilla
 
 ## List of date for all the submissions
-----------------------------------------------------------------------------------
+
 | Date    	| Descriptions                                                       | 
 ----------------------------------------------------------------------------------
 | 1/28/2022	| Created a Repo for Project                                         |
