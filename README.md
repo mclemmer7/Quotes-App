@@ -4,14 +4,14 @@ This repository is built to compile all the weekly project in our Applications P
 
 ## Owners
 
-### Mark Clemmer
+#### Mark Clemmer
 
-### Najib Gajjule
+#### Najib Gajjule
 
-### John Carlo Cabanilla
+#### John Carlo Cabanilla
 
 ## List of date for all the submissions
-__________________________________________________________________________________
+----------------------------------------------------------------------------------
 | Date    	| Descriptions                                                       | 
 | 1/28/2022	| Created a Repo for Project                                         |
 | 1/28/2022	| Created an ERD Diagram                                             |
