@@ -20,3 +20,8 @@ This repository is built to compile all the weekly project in our Applications P
 ----------------------------------------------------------------------------------
 | 2/5/2022	| Created a Mood Board and Person                                    |
 ----------------------------------------------------------------------------------
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
