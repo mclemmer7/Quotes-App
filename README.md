@@ -1,7 +1,5 @@
 # CSC3220_T3_Qoutes
 
-# CSC3220_T3_Qoutes
-
 This repository is built to compile all the weekly project in our Applications Programming class. 
 
 ## Owners
