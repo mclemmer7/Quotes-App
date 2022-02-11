@@ -13,8 +13,9 @@ This repository is built to compile all the weekly project in our Applications P
 ## List of date for all the submissions
 
 
-| Date | Descriptions |
-| :---         |     :---:      |
-| 1/28/2022   | Created a Repo for Project     | 
-| 1/28/2022     | Created an ERD Diagram       | 
-| 2/5/2022     | Created a Mood Board and Person       | 
+| Date | Descriptions | Commit By |
+| :---         |     :---:      |   :---: |  
+| 1/28/2022   | Created a Repo for Project     | John Cabanilla |
+| 1/28/2022     | Created an ERD Diagram       | Mark Clemmer |
+| 2/5/2022     | Created a Mood Board and Person       | John Cabanilla |
+| 2/16/2022     | Created a UI Bmpr and PNG File   |  Najib Gajjule | 
