@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Exported database: DB</title>
+    <style type="text/css">
+        table
+        {
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            border-collapse: collapse;
+        }
+        
+        table tr
+        {
+            background-color: white;
+        }
+        
+        table tr.header
+        {
+            background-color: #DDDDDD;
+        }
+        
+        table tr.title
+        {
+            background-color: #EEEEEE;
+        }
+        
+        table tr td
+        {
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+        }
+        
+        table tr td.null
+        {
+            color: #999999;
+            text-align: center;
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+        }
+        
+        table tr td.separator
+        {
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+            background-color: #DDDDDD;
+        }
+        
+        table tr td.rownum
+        {
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+            background-color: #DDDDDD;
+            text-align: right;
+        }
+        
+    </style>
+    <body>
+        <table>
+            <tr class="title">
+                <td colspan="4" align="center">Table: AUTHOR</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>AuthorID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>QuoteID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>AuthorName</b><br/>CHAR (0, 100)
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="6" align="center">Table: GEN-QUOTE</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>QuoteID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>Quote</b><br/>CHAR (0, 100)
+                </td>
+                <td>
+                    <b>SourceID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>GenreID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>Genre</b><br/>CHAR (0, 255)
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="3" align="center">Table: GENRE</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>GenreID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>Genre</b><br/>CHAR (0, 100)
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="5" align="center">Table: QUOTE</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>QuoteID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>Quote</b><br/>CHAR (0, 100)
+                </td>
+                <td>
+                    <b>SourceID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>GenreID</b><br/>no type
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="5" align="center">Table: SOURCE</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>SourceID</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>Title</b><br/>CHAR (0, 100)
+                </td>
+                <td>
+                    <b>Source</b><br/>CHAR (0, 100)
+                </td>
+                <td>
+                    <b>SourceType</b><br/>CHAR (0, 100)
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <i>Document generated by SQLiteStudio v3.3.3 on Wed Feb 23 22:11:10 2022</i>
+    </body>
+</html>
