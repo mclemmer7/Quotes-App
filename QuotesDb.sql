@@ -1,0 +1,25 @@
+--
+-- File generated with SQLiteStudio v3.3.3 on Fri Mar 4 15:45:44 2022
+--
+-- Text encoding used: System
+--
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Table: AUTHOR
+CREATE TABLE AUTHOR (AuthorID INTEGER PRIMARY KEY NOT NULL, QuoteID INTEGER NOT NULL, AuthorName CHAR (0, 100));
+
+-- Table: GEN-QUOTE
+CREATE TABLE "GEN-QUOTE" (QuoteID INTEGER, Quote CHAR (0, 100) NOT NULL, SourceID INTEGER NOT NULL, GenreID INTEGER, Genre CHAR (0, 255));
+
+-- Table: GENRE
+CREATE TABLE GENRE (GenreID INTEGER PRIMARY KEY, Genre CHAR (0, 100) NOT NULL);
+
+-- Table: QUOTE
+CREATE TABLE QUOTE (QuoteID INTEGER PRIMARY KEY, Quote CHAR (0, 100), SourceID INTEGER NOT NULL, GenreID NOT NULL);
+
+-- Table: SOURCE
+CREATE TABLE SOURCE (SourceID INTEGER PRIMARY KEY NOT NULL, Title CHAR (0, 100), Source CHAR (0, 100), SourceType CHAR (0, 100));
+
+COMMIT TRANSACTION;
+PRAGMA foreign_keys = on;
