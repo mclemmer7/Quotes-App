@@ -1,0 +1,11 @@
+debug/about.o
+debug/admin.o
+debug/home.o
+debug/main.o
+debug/mainwindow.o
+debug/search.o
+debug/moc_about.o
+debug/moc_admin.o
+debug/moc_home.o
+debug/moc_mainwindow.o
+debug/moc_search.o
