@@ -233,6 +233,7 @@ void Admin::on_Admin_Load_clicked(){
 
     ui->Admin_AuthorID_textBox->hide();
     ui->Admin_FindBtn->hide();
+      ui->Admin_ConfirmEditBtn->hide();
 }
 
 bool VerifyID(QString entry){
@@ -312,6 +313,7 @@ void Admin::on_Admin_DeleteBtn_clicked()
 
         ui->Admin_AuthorID_textBox->show();
         ui->Admin_FindBtn->hide();
+          ui->Admin_ConfirmEditBtn->hide();
 }
 
 void Admin::on_Admin_add_btn_clicked()
@@ -337,6 +339,7 @@ void Admin::on_Admin_add_btn_clicked()
 
     ui->Admin_AuthorID_textBox->show();
     ui->Admin_FindBtn->hide();
+      ui->Admin_ConfirmEditBtn->hide();
 
 
 
