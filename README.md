@@ -1,6 +1,8 @@
 # CSC3220_T3_Qoutes
 
-This repository is built to compile all the weekly project in our Applications Programming class. 
+This repository was used to to compile all the parts of our project in our Applications Programming class.
+
+iQuotes was designed to be a web desktop application used for work around quotations. In the app, the user can add, edit, delete, store, or view quotes from a linked database with a choice of categorization using parameters like author, genres, or keywords. This app is not fully operational and we did not figure out all of the features that we planned to add.
 
 ## Owners
 
